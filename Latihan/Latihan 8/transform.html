@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transform</title>
+    <style>
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+    /*
+        scale(angka), scaleX(angka), scaleY(angka)
+        rotate(deg),rotateX(deg),rotateY(deg)
+        skew(deg), skew(deg), skew(deg)
+        translate(px), translate(px), translate(px)
+        */
+    .kotak {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin: 50px auto 0;
+        transition: 1s
+    }
+    .kotak:hover {
+        transform: scale(3) rotate(360deg);
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    At soluta quia, nostrum quos cupiditate error suscipit 
+    maxime dolorem tenetur est tempora beatae vel dignissimos 
+    consequuntur assumenda aut praesentium dolores neque!</p>
+</body>
+</html>
